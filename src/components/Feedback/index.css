@@ -1,0 +1,61 @@
+.bg-container {
+  background: linear-gradient(to right, #ffeeee, #ffc0bb);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 50%;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-size: 18px;
+  font-family: 'Roboto';
+  text-align: center;
+}
+.emoji-container {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  padding-left: 0px;
+}
+
+.emoji {
+  width: 40px;
+  cursor: pointer;
+  outline: none;
+}
+
+.name {
+  font-family: 'Roboto';
+  font-size: 10px;
+}
+
+.love {
+  width: 50px;
+}
+
+.love-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  font-family: 'Roboto';
+  font-size: 10px;
+  text-align: center;
+}
